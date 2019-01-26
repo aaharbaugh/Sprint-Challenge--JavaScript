@@ -42,18 +42,17 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
-    Window Binding. Implicit Binding. Explicit Binding. New Binding. 
+    Global Binding. when referencing this in global scope. You are referencing the window/browser/console object that contains all of the parameters, attributes of the window/browser/console.
+
+    Implicit Binding. If you have a function within an object, when you call that function outside of the object, like: aaron.myFunction(), the object aaron is what this. references. 
+
+    Explicit Binding. Similarly to implicit, however the binding is visible and external. Whereas implicit is hidden. 
+
+    New Binding. When creating new functions or objects. Using the this keyword basically refers to the object that is being created. So each this.something is now an attribute being created in the object. 
 
 5. Why do we need super() in an extended class?
 
-    Super() is an abstraction of creating the parent objects. Passes the attributes back up to the parent. 
-
-## Minimum Viable Product
-
-Your finished project must include all of the following requirements:
-
-**Pro tip for this challenge: If something seems like it isn't working locally, copy and paste your code up to codepen and take another look at the console.**
-
+    Super() is an abstraction of creating the parent objects. Passes the attributes back up to the parent class so that the object created can have same attributes as parents. 
 
 ## Stretch Problems
 
