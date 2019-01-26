@@ -54,10 +54,6 @@ Your finished project must include all of the following requirements:
 
 **Pro tip for this challenge: If something seems like it isn't working locally, copy and paste your code up to codepen and take another look at the console.**
 
-## Task 1: Objects and Arrays
-Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
-
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
 * [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
