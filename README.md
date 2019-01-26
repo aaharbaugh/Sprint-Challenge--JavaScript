@@ -30,33 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    For Each does not change the array. Map creates a new array. 
+
 2. What is the difference between a function and a method?
+
+    A method is a part of an object. It can be called using the object itself. Like person.speak(). Whereas a function is standalone. 
 
 3. What is closure?
 
+    Closure is the term used to describe the scope of individual functions and were they are able to search for the variables they need. 
+
 4. Describe the four rules of the 'this' keyword.
+
+    Window Binding. Implicit Binding. Explicit Binding. New Binding. 
 
 5. Why do we need super() in an extended class?
 
-## Project Set up
-
-Follow these steps to set up and work on your project:
-
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
-
-Follow these steps for completing your project:
-
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by  merging the branch back into master.
-
+    Super() is an abstraction of creating the parent objects. Passes the attributes back up to the parent. 
 
 ## Minimum Viable Product
 
