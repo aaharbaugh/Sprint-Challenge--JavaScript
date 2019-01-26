@@ -5,7 +5,7 @@
   Use this pattern to create your objects: 
   object name, diet, weight, length, period
 */
-
+console.log("------ object arrays start here ------")
 const tyra = {
   name: 'tyrannosaurus',
   diet: 'carnivorous',
